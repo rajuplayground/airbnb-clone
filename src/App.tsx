@@ -95,6 +95,7 @@ function App() {
         }
       ]
   return (
+    <>
     <header>
         <div className="border-b-[1px] border-b-gray-200">
             <div className="px-20 py-4 max-w-[2520px] mx-auto flex items-center justify-between">
@@ -128,6 +129,13 @@ function App() {
             </div>
         </div>
     </header>
+    <main>
+        <div className='h-[60vh] text-center items-center flex flex-col justify-center gap-4'>
+            <p className='text-xl font-bold'>No exact matches</p>
+            <p className='text-[16px] text-neutral-400'>Try changing or removing some of your filters.</p>
+            <button className='text-[16px] border-[2px] rounded-lg px-6 py-3 border-black'>Remove all filters</button>
+        </div>
+    </main></>
   )
 }
 
