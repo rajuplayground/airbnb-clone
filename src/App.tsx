@@ -16,10 +16,12 @@ function App() {
             </div>
             <div className="flex items-center gap-6">
                 <a href="">Airbnb your home</a>
-                <div className='flex items-center gap-3 border-[1px] rounded-full px-2 py-1'>
-                <Menu className='w-[16px] h-[16px]' />
-                    <img className="w-[30px] rounded-full" src="/images/placeholder.jpg" alt="" />
-                </div>
+                <a href="">
+                    <div className='flex items-center gap-3 border-[1px] rounded-full px-2 py-1'>
+                    <Menu className='w-[16px] h-[16px]' />
+                        <img className="w-[30px] rounded-full" src="/images/placeholder.jpg" alt="" />
+                    </div>
+                </a>
             </div>
         </div>
     </header>
